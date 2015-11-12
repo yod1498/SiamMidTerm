@@ -85,46 +85,6 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &11060814 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 138730, guid: bf8031609acf04b09b3a17a8d1ad7884, type: 2}
-  m_PrefabInternal: {fileID: 856759862}
---- !u!60 &11060821
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 11060814}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: .157805443, y: -.465595007}
-      - {x: .310000002, y: -.449999988}
-      - {x: .14799118, y: -.475919724}
-      - {x: .315440655, y: -.351684809}
-      - {x: .0451159477, y: -.30185461}
-      - {x: .241375923, y: -.321344614}
-      - {x: .121715546, y: -.296769619}
-      - {x: .00459003448, y: -.249830008}
-      - {x: -.0462594032, y: -.299319983}
-      - {x: 0, y: -.109999999}
-      - {x: -.10457468, y: -.127789974}
-      - {x: -.139490128, y: -.102874994}
-      - {x: -.275254726, y: .0101699829}
-      - {x: -.301020145, y: -.0982999802}
-      - {x: -.43661499, y: -.239319801}
-      - {x: -.555764675, y: -.34525466}
-      - {x: -.36899519, y: -.511700153}
-      - {x: -.347635269, y: -.556785345}
-      - {x: -.36542511, y: -.49306035}
-      - {x: -.167449951, y: -.630680084}
-      - {x: .00661468506, y: -.546275377}
-      - {x: .101360321, y: -.486445189}
-      - {x: .068315506, y: -.476955175}
 --- !u!4 &86616470 stripped
 Transform:
   m_PrefabParentObject: {fileID: 475956, guid: 475026eeeb16d48329040c401f5b8b94, type: 2}
@@ -859,15 +819,15 @@ Transform:
   - {fileID: 1882141549}
   - {fileID: 351138593}
   - {fileID: 2026405744}
-  - {fileID: 86616470}
   - {fileID: 790529208}
+  - {fileID: 1175497786}
+  - {fileID: 86616470}
   - {fileID: 1880617885}
   - {fileID: 1474290913}
   - {fileID: 642942669}
-  - {fileID: 2011094723}
-  - {fileID: 1175497786}
-  - {fileID: 1701929076}
   - {fileID: 509790564}
+  - {fileID: 1701929076}
+  - {fileID: 2011094723}
   - {fileID: 1049459982}
   - {fileID: 748399800}
   m_Father: {fileID: 0}
@@ -911,13 +871,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5819444, guid: bf8031609acf04b09b3a17a8d1ad7884, type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6126474, guid: bf8031609acf04b09b3a17a8d1ad7884, type: 2}
-    - {fileID: 5819444, guid: bf8031609acf04b09b3a17a8d1ad7884, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf8031609acf04b09b3a17a8d1ad7884, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &873018690
